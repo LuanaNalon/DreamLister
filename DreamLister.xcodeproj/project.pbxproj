@@ -14,8 +14,10 @@
 		E231B44F2655612B007F933F /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E231B44D2655612B007F933F /* DreamLister.xcdatamodeld */; };
 		E231B4512655612F007F933F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E231B4502655612F007F933F /* Assets.xcassets */; };
 		E231B4542655612F007F933F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E231B4522655612F007F933F /* LaunchScreen.storyboard */; };
+		E2507DCC26581859005E82C1 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2507DCB26581859005E82C1 /* ItemDetailsVC.swift */; };
 		E2E59DC42656C76800354B9D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E59DC32656C76800354B9D /* MaterialView.swift */; };
 		E2E59DC62656C9FF00354B9D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E59DC52656C9FF00354B9D /* ItemCell.swift */; };
+		E2E8E440266523B700D0EFB2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8E43F266523B700D0EFB2 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		E231B4502655612F007F933F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E231B4532655612F007F933F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E231B4552655612F007F933F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2507DCB26581859005E82C1 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		E2E59DC32656C76800354B9D /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		E2E59DC52656C9FF00354B9D /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E2E8E43F266523B700D0EFB2 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,10 @@
 		E231B4432655612B007F933F /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				E2507DCA26581825005E82C1 /* Controller */,
 				E2E59DC22656C6DA00354B9D /* View_ */,
 				E231B4442655612B007F933F /* AppDelegate.swift */,
 				E231B4462655612B007F933F /* SceneDelegate.swift */,
-				E231B4482655612B007F933F /* MainVC.swift */,
 				E231B44A2655612B007F933F /* Main.storyboard */,
 				E231B4502655612F007F933F /* Assets.xcassets */,
 				E231B4522655612F007F933F /* LaunchScreen.storyboard */,
@@ -75,9 +79,19 @@
 			path = DreamLister;
 			sourceTree = "<group>";
 		};
+		E2507DCA26581825005E82C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E231B4482655612B007F933F /* MainVC.swift */,
+				E2507DCB26581859005E82C1 /* ItemDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E2E59DC22656C6DA00354B9D /* View_ */ = {
 			isa = PBXGroup;
 			children = (
+				E2E8E43F266523B700D0EFB2 /* CustomTextField.swift */,
 				E2E59DC32656C76800354B9D /* MaterialView.swift */,
 				E2E59DC52656C9FF00354B9D /* ItemCell.swift */,
 			);
@@ -155,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E231B44F2655612B007F933F /* DreamLister.xcdatamodeld in Sources */,
+				E2507DCC26581859005E82C1 /* ItemDetailsVC.swift in Sources */,
 				E231B4492655612B007F933F /* MainVC.swift in Sources */,
 				E2E59DC62656C9FF00354B9D /* ItemCell.swift in Sources */,
+				E2E8E440266523B700D0EFB2 /* CustomTextField.swift in Sources */,
 				E2E59DC42656C76800354B9D /* MaterialView.swift in Sources */,
 				E231B4452655612B007F933F /* AppDelegate.swift in Sources */,
 				E231B4472655612B007F933F /* SceneDelegate.swift in Sources */,
